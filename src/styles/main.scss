@@ -1,3 +1,33 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.header {
+  &-title {
+    font-family: 'Rubik';
+    color: #40a3f8 !important;
+    font-size: 31.635px !important;
+    line-height: 47px !important;
+    letter-spacing: 1px !important;
+  }
+  &-navigation {
+    font-family: 'Poppins';
+    color: #6e5f5f;
+  }
+  &-btn {
+    font-family: 'Poppins';
+    background-color: #40a3f8 !important;
+    font-size: 14.997px !important;
+    line-height: 22px !important;
+  }
+}
+
+// work styles
+.active {
+  color: #40a3f8 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.opacity-3 {
+  opacity: 0.3;
+}
