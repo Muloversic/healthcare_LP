@@ -13,13 +13,13 @@
     <title>HEALTHCARE.</title>
   </head>
   <body>
-    <div class="container ps-4 pe-4">
-      <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="header">
+      <div class="container ps-4 pe-4">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand header-title text-capitalize" href="#">HEALTCARE.</a>
+            <a class="navbar-brand header-title text-capitalize me-0" href="#">HEALTCARE.</a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler header-btn-nav navbar-dark"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -55,7 +55,56 @@
             </div>
           </div>
         </nav>
-      </header>
-    </div>
+        <div class="row header-main-content flex-column-reverse flex-lg-row justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+            <p class="fw-bold header-text">
+              Find And Search Your <br />
+              <span>Suitable Doctor’s</span>
+            </p>
+            <p class="mt-5 header-subtext fw-light">
+              Join us and take care of yourself and your family with health services that will make you feel confident and
+              safe in your daily life.
+            </p>
+            <form class="header-form pt-3 pb-3 ps-xl-5 pe-1 ps-md-2">
+              <div class="row align-items-center flex-lg-row flex-sm-column">
+                <div class="col-sm-12 col-lg-5 col-xl-6 col-xxl-6 mt-2 mt-lg-0">
+                  <input
+                    type="email"
+                    class="form-control border-0 header-form-input"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Find your doctor"
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-3 header-select-container mt-2 mt-lg-0 d-flex justify-content-center">
+                  <select class="w-75 form-select border-0 header-form-select fw-light">
+                    <option selected>New York, USA</option>
+                    <option value="Washington">Washington, USA</option>
+                    <option value="Boston">Boston, USA</option>
+                    <option value="Los-Angeles">Los Angeles, USA</option>
+                  </select>
+                </div>
+                <div class="col-sm-12 col-lg-2 col-xl-1 col-xxl-1 d-sm-flex mt-2 mt-lg-0">
+                  <button
+                    type="submit"
+                    class="btn btn-primary header-form-btn p-4 border-0 ms-sm-2 me-sm-2 ms-xxl-5 w-100"
+                  ></button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6 position-relative d-flex d-xl-block align-items-end">
+            <div class="header-image-block">
+              <img src="./images/doctor.png" class="img-fluid header-image" alt="doctor" />
+            </div>
+            <img class="header-image-stat position-absolute" src="./images/phone.svg" alt="phone" />
+            <img class="header-image-stat position-absolute" src="./images/discuss.svg" alt="discuss" />
+            <img class="header-image-stat position-absolute" src="./images/Patient review.svg" alt="review" />
+            <img class="header-image-stat position-absolute" src="./images/video.svg" alt="video" />
+            <img class="header-image-stat position-absolute" src="./images/Patients.svg" alt="patient" />
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
