@@ -341,9 +341,14 @@ body {
 .quality {
   margin-top: 71px;
   &-img {
+    position: absolute;
     left: -15%;
+    @media screen and(max-width:767px) {
+      position: static;
+    }
   }
   &-img-container {
+    position: relative;
   }
 
   &-info {
