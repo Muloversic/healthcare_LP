@@ -338,6 +338,61 @@ body {
   }
 }
 
+.quality {
+  margin-top: 71px;
+  &-img {
+    left: -15%;
+  }
+  &-img-container {
+  }
+
+  &-info {
+    margin-top: 80px;
+  }
+
+  &-heading {
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3d3d3f;
+  }
+
+  &-text {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+  }
+
+  &-list {
+    &-item {
+      position: relative;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+      color: #3d3d3f;
+      &::before {
+        content: url('../images/iconList.svg');
+        position: absolute;
+        top: 10%;
+        left: -25px;
+      }
+    }
+  }
+
+  &-btn {
+    position: relative;
+    background: #40a3f8;
+    color: #fff;
+    &::after {
+      content: url(../images/arrow\ left.svg);
+      position: absolute;
+      top: 17%;
+      right: 12%;
+    }
+  }
+}
+
 // work styles
 .active {
   color: #40a3f8 !important;
