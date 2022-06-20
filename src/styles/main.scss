@@ -355,13 +355,6 @@ body {
     margin-top: 80px;
   }
 
-  &-heading {
-    font-size: 42px;
-    line-height: 49px;
-    letter-spacing: 0.02em;
-    color: #3d3d3f;
-  }
-
   &-text {
     font-size: 18px;
     line-height: 30px;
@@ -399,6 +392,14 @@ body {
 }
 
 // work styles
+
+.section-heading {
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #3d3d3f;
+}
+
 .active {
   color: #40a3f8 !important;
   font-size: 16px !important;
