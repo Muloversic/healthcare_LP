@@ -363,6 +363,25 @@ body {
 
   &-info {
     margin-top: 80px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 300px;
+      height: 100%;
+      top: 0;
+      left: 37%;
+      background: rgba(115, 255, 207, 0.8);
+      opacity: 0.8;
+      filter: blur(255px);
+      transform: rotate(90deg);
+      @media (max-width: 1000px) {
+        width: 70px;
+        filter: blur(150px);
+        transform: rotate(180deg);
+      }
+    }
   }
 
   &-text {
