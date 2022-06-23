@@ -532,6 +532,38 @@ body {
   }
 }
 
+.mobile {
+  margin-top: 71px;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90vw;
+    height: 100%;
+    background: rgba(115, 255, 207, 0.8);
+    opacity: 0.6;
+    filter: blur(490px);
+    z-index: -1;
+  }
+  
+  &-info {
+    margin-top: 120px;
+    position: relative;
+    @media screen and (max-width: 767px) {
+      margin-top: 20px;
+    }
+  }
+
+  &-text {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+  }
+}
+
 .service-slider {
   .carousel-indicators {
     bottom: -25%;
