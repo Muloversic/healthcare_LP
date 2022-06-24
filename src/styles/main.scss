@@ -449,6 +449,17 @@ body {
     z-index: -1;
     filter: blur(255px);
   }
+
+  @media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+  }
 }
 
 .doctors {
@@ -568,7 +579,7 @@ body {
   margin-top: 150px;
   .card {
     position: relative;
-    max-width: 370px;
+    // max-width: 370px;
     border-radius: 20px;
     &::after {
       content: '';
@@ -645,6 +656,17 @@ body {
       right: 0%;
     }
   }
+
+  @media (min-width: 1120px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+  }
 }
 
 .service-slider {
@@ -718,16 +740,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-@media (min-width: 768px) {
-  .carousel-item {
-    margin-right: 0;
-    flex: 0 0 33.333333%;
-    display: block;
-  }
-  .carousel-inner {
-    display: flex;
-  }
-}
+
 .card .img-wrapper {
   max-width: 100%;
   height: 9em;
