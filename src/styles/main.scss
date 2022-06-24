@@ -570,7 +570,12 @@ body {
     position: relative;
     max-width: 370px;
     border-radius: 20px;
+    &::after {
+      content: '';
+      display: none !important;
+    }
   }
+
   .card-lable {
     position: absolute;
     width: 40px;
@@ -586,25 +591,53 @@ body {
       transform: translate(-50%, -50%);
     }
   }
+
   .card-text {
     max-width: 305px;
     font-size: 16px;
     line-height: 25px;
     color: #454d5d;
   }
+
   .card-header {
     background: #fff;
   }
+
   .card-title {
     font-size: 20px;
     color: #3d3d3f;
   }
+
   .card-subtitle {
     font-size: 14px;
     color: #47c2ff;
   }
+
   .card-rate {
     width: 70px;
+  }
+
+  .carousel-control {
+    background: linear-gradient(133.16deg, rgba(154, 208, 255, 0.432) 0%, rgba(111, 188, 255, 0.1005) 112.21%);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+    i {
+      color: #1d96ff;
+    }
+
+    &:hover {
+      background: #40a3f8;
+      box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+      i {
+        color: #fff;
+      }
+    }
+  }
+
+  .carousel-control-prev {
+    left: -10%;
+  }
+  .carousel-control-next {
+    right: -10%;
   }
 }
 
