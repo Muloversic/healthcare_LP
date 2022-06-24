@@ -688,6 +688,43 @@ body {
   }
 }
 
+.time {
+  margin-top: 150px;
+  background-color: #40a3f8;
+  &-info {
+    padding: 50px 0 50px 70px;
+  }
+
+  &-heading {
+    font-size: 40px;
+    line-height: 47px;
+    max-width: 400px;
+  }
+
+  &-btn {
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'cpsp' on;
+    color: #40a3f8;
+    background-color: #fff;
+    padding: 15px;
+  }
+
+  &-image {
+    position: relative;
+    img {
+      position: absolute;
+      bottom: 0;
+    }
+
+    @media screen and (max-width: 767px) {
+      img {
+        position: static;
+      }
+    }
+  }
+}
+
 .service-slider {
   .carousel-indicators {
     bottom: -25%;
