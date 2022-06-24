@@ -577,14 +577,33 @@ body {
 
 .clients {
   margin-top: 150px;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90vw;
+    height: 100%;
+    background: rgba(115, 255, 207, 0.8);
+    opacity: 0.6;
+    filter: blur(490px);
+    z-index: -1;
+  }
+
   .card {
     position: relative;
-    // max-width: 370px;
     border-radius: 20px;
+    height: 370px;
     &::after {
       content: '';
       display: none !important;
     }
+  }
+  .img-wrapper {
+    flex: 1 1 20%;
+  }
+  .card-body {
+    flex: 0 0 80%;
   }
 
   .card-lable {
