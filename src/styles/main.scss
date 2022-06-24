@@ -635,9 +635,15 @@ body {
 
   .carousel-control-prev {
     left: -10%;
+    @media screen and(max-width: 1560px) {
+      left: 0%;
+    }
   }
   .carousel-control-next {
     right: -10%;
+    @media screen and (max-width: 1560px) {
+      right: 0%;
+    }
   }
 }
 
