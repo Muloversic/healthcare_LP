@@ -568,7 +568,7 @@ body {
   margin-top: 150px;
   .card {
     position: relative;
-    width: 370px;
+    max-width: 370px;
     border-radius: 20px;
   }
   .card-lable {
