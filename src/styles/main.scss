@@ -516,6 +516,7 @@ body {
 
   .card-socials-items {
     position: relative;
+
     &::before {
       content: '';
       position: absolute;
@@ -525,8 +526,14 @@ body {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #3e3e3e;
       z-index: -1;
+    }
+
+    &:hover {
+      cursor: pointer;
+      &:before {
+        background-color: #a1a5ac !important;
+      }
     }
 
     &:nth-of-type(1)::before {
