@@ -827,6 +827,28 @@ body {
   }
 }
 
+.sub-footer {
+  &-text {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+  }
+}
+.policy {
+  &-item {
+    a {
+      font-family: 'DM Sans';
+      font-size: 14px;
+      line-height: 14px;
+      color: #646464;
+      &:hover {
+        color: #1d96ff;
+      }
+    }
+  }
+}
+
 .service-slider {
   .carousel-indicators {
     bottom: -25%;
