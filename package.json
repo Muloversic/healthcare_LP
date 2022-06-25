@@ -3,7 +3,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve --env develop",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "devDependencies": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "normalize.css": "^8.0.1"
   }
