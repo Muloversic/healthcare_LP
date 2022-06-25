@@ -34,10 +34,12 @@ body {
     font-family: 'Poppins';
     color: #6e5f5f;
   }
+
   &-btn-nav {
     position: relative;
     background-color: #40a3f8 !important;
   }
+
   &-btn {
     font-family: 'Poppins';
     background-color: #40a3f8 !important;
@@ -81,6 +83,7 @@ body {
       @media screen and(max-width:991px) {
         left: 1%;
       }
+
       @media screen and(max-width:767px) {
         left: 7%;
       }
@@ -118,6 +121,7 @@ body {
       border-radius: 0.4em !important;
     }
   }
+
   &-image-block {
     position: relative;
     &::after {
@@ -292,6 +296,7 @@ body {
         width: 170px;
         height: 170px;
       }
+
       &:nth-of-type(5) {
         top: 50%;
         right: 0%;
@@ -361,6 +366,7 @@ body {
       position: static;
     }
   }
+
   &-img-container {
     position: relative;
   }
@@ -440,6 +446,7 @@ body {
     z-index: -1;
     filter: blur(255px);
   }
+
   &::before {
     content: '';
     position: absolute;
@@ -610,9 +617,11 @@ body {
       display: none !important;
     }
   }
+
   .img-wrapper {
     flex: 1 1 20%;
   }
+
   .card-body {
     flex: 0 0 80%;
   }
@@ -714,6 +723,7 @@ body {
     z-index: -1;
   }
 }
+
 .time {
   position: relative;
   background: url(../images/timeBg.png) center/cover no-repeat;
@@ -880,6 +890,7 @@ body {
     color: #646464;
   }
 }
+
 .policy {
   &-item {
     a {
@@ -908,6 +919,7 @@ body {
     transition: all 0.4s ease;
     margin-right: 15px;
   }
+
   .carousel-indicators [data-bs-target].active {
     border: none;
     background-color: #40a3f8;
@@ -915,6 +927,7 @@ body {
     width: 60px;
   }
 }
+
 .carousel-item.active .card {
   position: relative;
   &::after {
@@ -931,16 +944,19 @@ body {
     border-radius: 0px 0px 10px 10px;
   }
 }
+
 .card-image {
   width: 90px;
   height: 70px;
 }
+
 .card-title {
   font-size: 18px;
   line-height: 30px;
   text-align: center;
   color: #3d3d3f;
 }
+
 .card-text {
   max-width: 216px;
   font-size: 14px;
@@ -952,10 +968,12 @@ body {
 .carousel-inner {
   padding: 1em;
 }
+
 .card {
   margin: 0 0.5em;
   border: none;
 }
+
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
@@ -973,9 +991,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .card img {
   max-height: 100%;
 }
+
 @media (max-width: 767px) {
   .card .img-wrapper {
     height: 17em;
