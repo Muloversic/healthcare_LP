@@ -790,6 +790,12 @@ body {
           background-color: #646464;
           z-index: -1;
         }
+
+        i {
+          &:hover {
+            color: #1d96ff !important;
+          }
+        }
       }
     }
   }
