@@ -753,6 +753,80 @@ body {
   }
 }
 
+.footer {
+  &-info {
+    &-title {
+      font-family: 'Rubik';
+      font-size: 31.635px;
+      letter-spacing: 1px;
+      color: #40a3f8;
+    }
+
+    &-contacts {
+      display: inline-block;
+      font-family: 'DM Sans';
+      font-size: 14px;
+      color: #646464;
+    }
+
+    &-socials {
+      max-width: 40%;
+      &-item {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #646464;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+  &-subscription-text {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: 25px;
+    color: #646464;
+  }
+
+  &-input {
+    border: 1.1px solid #e1e2e4;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: rgba(117, 117, 117, 0.65);
+    }
+  }
+
+  &-button {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 10px 0;
+    background: #40a3f8;
+    border: 1.1px solid #e1e2e4;
+    &:hover {
+      background-color: rgb(91, 184, 153);
+    }
+  }
+}
+
+.subnav {
+  &-item {
+    font-size: 14px;
+    color: #646464;
+  }
+}
+
 .service-slider {
   .carousel-indicators {
     bottom: -25%;
