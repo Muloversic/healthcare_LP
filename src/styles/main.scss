@@ -771,6 +771,10 @@ body {
 
     &-socials {
       max-width: 40%;
+      @media screen and (max-width: 350px) {
+        min-width: 80%;
+      }
+
       &-item {
         position: relative;
         &::after {
